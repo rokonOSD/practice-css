@@ -72,8 +72,31 @@ hr{
 } 
 .edu-template-left{
     float: left;
+    width: 45%;
 }
 edu-template-right{
+    float: right;
+    width: 45%;
+}
+.honor-left{
     float: left;
 }
-
+.honor-right{
+    float: right;
+}
+.bottom-container{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    color: orange;
+    
+}
+.bottom-container a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+.bottom-container p {
+    margin-top: 20px;
+}
