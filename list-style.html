@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>list-style</title>
+    <style>
+        .course-list{
+            background-color: rgb(236, 16, 78);
+            padding: 20px;
+
+
+        }
+        .course-list ul{
+            /* list-style-type: square;
+            list-style-position: outside; */
+            /* list-style-image: url("check-mark.png") inside circle; */
+            
+          
+
+        }
+        .course-list li{
+            font-size: 1.2rem;
+            color: green;
+
+        }
+        .course-list li::before{
+
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div class="course-list">
+        <ul>
+            <li>Html</li>
+            <li>Css</li>
+            <li>Js</li>
+            <li>J Quary</li>
+        </ul>
+
+    </div>
+   
+    
+</body>
+</html>
