@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+ 
+}
+body{
+    margin:0;
+}
+
+h1{
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+a{
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+
+}
+
+.navber{
+    background-color: #40868b;
+    padding: 1% 7%;
+    text-align:center;
+
+}
+
+[class*="col-"]{
+    float: left;
+    padding: 10px;
+
+}
+
+/* for mobile */
+[class*="col-"]{
+    width: 100%;
+}
+
+.nav-logo{
+    width: 50px;
+    height: 50px;
+    display: block;
+
+}
+
+.navber-manu{
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+
+}
+
+img{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.navber::after{
+    clear: both;
+    display: table;
+    content: "";
+}
+
+.navber-manu a{
+    background-color:#0c6168;
+    border-radius: 10px;
+    margin:7px 0px ;
+    padding: 10px;
+
+}
+
+.navber-manu a:hover{
+    background-color: gray;
+
+}
