@@ -70,6 +70,10 @@ img{
     padding: 10px;
 
 }
+h2{
+    font-size: 1.5rem;
+    text-align: center;
+}
 
 .navber-manu a:hover{
     background-color: gray;
@@ -121,6 +125,15 @@ image{
     buttom: 10px;
     transition:transform 2s ;
 
+
+}
+.dotted-hr{
+    border: dotted 6px white;
+    border-bottom: none;
+    margin: 20 auto;
+    width: 70px;
+
+
 }
 
 .butttom-wether-icon:hover {
@@ -135,3 +148,29 @@ profile::after{
 }
 
 /* profile ends hear */
+/* abut me design start hear */
+.about-me{
+    background-color: #39a4ac;
+    padding: 1% 7%;
+    color:white ;
+    text-align: center;
+    font-family:'Montserrat', sans-serif;
+}
+
+.about-me::after{
+    clear: both;
+    display: table;
+    contain: '';
+}
+.about-me p{
+    
+}
+
+.aboutme-image img{
+    border: 5px solid white;
+    border-radius: 50%;
+    width:220px ;
+    height: 120px;
+}
+
+/* abut me design ends hear */
