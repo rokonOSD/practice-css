@@ -1,0 +1,50 @@
+.heading{
+    color: #0866FF;
+    text-align: center;
+    width: 30%;
+    height: 10%;
+    
+    
+}
+*{
+    background-color: #F0F2F5;
+    margin: 0 auto;
+    padding:20px;
+
+}
+
+.footer{
+    color: #1877F2;
+    border-style: none;
+    background-color: #FFFFFF;
+   
+}
+.containt{
+    background-color:#FFFFFF ;
+    border-radius: 10px; 
+    width: 27%;
+    height: 9%;    
+    border: 1px solid rgb(86, 85, 85);  
+    text-align: center;
+    
+    
+    
+     
+     
+
+
+}
+.height{
+    width: 95%;
+    height: 20%;
+    border-radius: 10px;
+    text-align: left; 
+   margin-bottom: 10px;
+   background-color:#FFFFFF ;
+    
+
+   
+
+}
+
+    
