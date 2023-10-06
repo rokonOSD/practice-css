@@ -1,0 +1,62 @@
+h1::first-letter{
+    color: #4285F4;
+}
+.but1{
+    color:#EA4335 ;
+}
+.but2{
+    color:#FBBC05 ;
+}
+.but3{
+    color:#4285F4 ;
+}
+.but4{
+    color:#34A853 ;
+}
+.but5{
+    color:#EA4335 ;
+}
+
+.headding{
+    text-align: center;
+}
+.footer{
+    display: flex;
+    gap: 50%;
+    justify-content: center;
+    text-align: center;
+    
+    
+}
+.main{
+    width:25%;
+    height:25%;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 5%;
+    
+}
+
+.button{
+    height:10px;    
+    width:300px;
+    border-radius: 5px;
+    border: 1px solid black;
+    text-align: left;
+    padding:20px;
+    background-color: #FFFFFF;
+    
+
+}
+.btn{
+    width: 20%;
+    height: 35px;
+    border-radius: 5px;
+    background-color: #4285F4;
+    color: #FFFFFF;
+}
+a{
+    text-decoration: none;
+}
