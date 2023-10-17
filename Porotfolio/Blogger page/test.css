@@ -1,14 +1,20 @@
 
 
 .heading1{
-    display: flex;
-    justify-items: center;    
-    gap: 5px;
+    display: block;
+    text-decoration-line: none;
+    text-decoration-thickness:initial;
+    text-decoration-style:initial;
+    text-decoration-color:initial;
+    
+
+
+    
     
 }
 .img{
-    width: 30px;
-    height: 30px;    
+    width: 32px;
+    height: 32px;    
 
 }
 
@@ -28,6 +34,16 @@
     height: 50px;
     width: 160px;
     background:#FF9224;    
+    padding: 10px; 
+    border-radius: 5px;  
+    color:#FFFFFF;
+    border: none;
+    
+}
+.but1{
+    height: 50px;
+    width: 160px;
+    background:#405965;    
     padding: 10px; 
     border-radius: 5px;  
     color:#FFFFFF;
@@ -58,6 +74,12 @@
 
 }
 .img5{
+    width: 70%;
+    height:20%;
+    text-align:right;
+
+}
+.img6{
     width: 70%;
     height:20%;
     text-align:right;
@@ -97,4 +119,26 @@
     color: #FFFFFF;
     display: flex;
 
+}
+.num6{
+    background-color:#BC382E;
+    padding: 20px;
+    color: #FFFFFF;
+    display: flex;
+
+}
+.num7{
+    background-color: #D06B0A;    
+    padding: 20px;
+    
+    text-align: center;   
+    
+
+}
+section{
+    display: flex;
+}
+.footer{
+background-color: #1D2B34;
+color:#FFFFF2 ;
 }
